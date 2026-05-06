@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+youtube-transcript-api==1.2.2
+google-generativeai
+langchain
+langchain-google-genai
+langchain-chroma
+langchain-text-splitters
+langchain-community
+python-docx
+fpdf2
+pyvis

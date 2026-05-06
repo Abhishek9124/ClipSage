@@ -1,0 +1,71 @@
+# --- Personal notes (not for public repo) ---
+interview.md
+
+# --- Secrets & environment ---
+.env
+*.env
+.env.*
+!.env.example
+.clipsage_cache
+.vidsynth_cache
+# --- ClipSage local cache (transcripts + Chroma vector stores) ---
+.clipsage_cache/
+.vidsynth_cache/
+*_cache/
+*.cache/
+chroma/
+*.sqlite3
+
+# --- Claude / AI assistant local files ---
+.claude/
+.cursor/
+.aider*
+CLAUDE.md
+memory/
+
+# --- Generated exports ---
+*.pdf
+*.docx
+mindmap.html
+exports/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/
